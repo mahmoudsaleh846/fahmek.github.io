@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sect-pt4{
+    padding-top: 4rem;
+}
+/* navbar */
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-item{
+    padding-right: 1rem;
+}
+/* header */
+#header{
+    background-image: url("../img/hero-bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.caption h1{
+    font-size: 4.5rem;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+}
+/* about */
+#about{
+    background-color: #f5f5f5;
+}
+#about .container{
+    background-color: #f5f5f5;
+}
+.box-shadow-full{
+    background-color: white;
+    padding: 4rem 0;
+    margin-bottom: 3rem;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 768px){
+    .box-shadow-full{
+        padding: 3rem;
+    }  
+}
+.about-title{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.about-info{
+    color: #4e4e4e;
+}
+.about-img img{
+    margin-left: 10px;
+}
+.about-img{
+    margin-bottom: 2rem;
+}
+p.title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.skill-mf span{
+    color: #4e4e4e;
+}
+.progress{
+    margin: 10px 0px;
+}
+.title-box-2{
+    margin-bottom: 3rem;
+}
+.title-left{
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: .5rem;
+}
+.title-left::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 20%;
+    bottom: -12px;
+}
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+#Services{
+    background-color: #f5f5f5;
+}
+.title-a{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.subtitle-a{
+    color: #4e4e4e;
+    margin-bottom: 1rem;
+}
+.line{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.service-box{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.service-box .service-ico{
+    margin-bottom: 1rem;
+    color: black;
+}
+.ico-circle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #0078ff;
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+.service-box .ico-circle:hover{
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+}
+.service-box .s-title{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+}
+.service-box .s-desc{
+    color: #4e4e4e;
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.overlay-mf{
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.paralax-mf{
+    position: relative;
+    padding: 4rem 0;
+}
+
+.counter-box{
+    color: #fff;
+    text-align: center;
+}
+  
+@media (min-width: 577px){
+    .counter-box {
+      margin-bottom: 1.8rem;
+    }
+}
+
+.section-counter .ico-circle{
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+.counter-num p{
+    font-size: 1.5rem;
+}
+.plus-icon{
+    float: right;
+    font-size: 1.5rem;
+}
+
+.card-body h2{
+    font-size: 1.2rem;
+}
+.card-body span{
+    font-size: 0.8rem;
+}
+.card-body .ico-circle{
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    box-shadow: 0 0 0 4px #0078ff;
+}
+#work{
+    background-color: #f5f5f5;
+}
+.card{
+    margin: 1.5rem 0;
+    border-radius: 0;
+    box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+}
+
+
+.paralax-mf-2{
+    position: relative;
+    padding: 6rem 0;
+}
+
+.carousel-title{
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+}
+.carousel-info{
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+.carousel-img img{
+    border-radius: 50%;
+}
+
+#blog{
+    background-color: #f5f5f5;
+}
+
+.submit{
+    border-color: #cde1f8;
+    border-radius: 5rem;
+    padding: 0.9rem 2.3rem;
+    transition: all 500ms ease;
+}
+.submit:hover{
+    background-color: #cde1f8;
+    border-color: #cde1f8;
+}
+.list-icon{
+    line-height: 2;
+}
+.list-icon span{
+    color: #0078ff;
+    margin-right: 10px;
+}
+.socials li{
+    display: inline-block;
+    padding-right: 0.4rem;
+    padding-top: 1rem;
+}
+.socials .ico-circle{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 0 3px #0078ff;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background-color: #0062d3;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
